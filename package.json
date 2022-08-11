@@ -1,0 +1,23 @@
+{
+  "name": "secretoff",
+  "version": "1.0.0",
+  "description": "Microservice made with Node.js + Express Framework for Rather Labs Devops Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildingOnCloud/secretoff.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker"
+  ],
+  "author": "Jesus Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildingOnCloud/secretoff/issues"
+  },
+  "homepage": "https://github.com/BuildingOnCloud/secretoff#readme"
+}
