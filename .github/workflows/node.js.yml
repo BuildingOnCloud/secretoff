@@ -50,6 +50,7 @@ permissions:
 
 jobs:
   build:
+    name: Build Express Node JS
     runs-on: ubuntu-latest
 
     strategy:
