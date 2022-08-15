@@ -1,0 +1,14 @@
+{
+  "name": "secretoff",
+  "version": "1.0.0",
+  "description": "Node Express JS App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
