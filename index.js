@@ -20,13 +20,10 @@ const corsOptions = {
 // Set cors options
 app.use(cors(corsOptions));
 
-// Secret Value
-var secret = 'THE SECRET'
-
 // Response Secret Value
 app.use('/', (req, res)=> {
   console.log('REQ coming ..')
-  res.send("Secret value is: ${secret}")
+  res.send("Secret value is: ${process.env.APP_PORT} , ${process.env.API_KEY}")
   console.log('REQ response OK ..')
 })
 
