@@ -46,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "app_ecs-service1"
+      "name": "app_container1"
     }
   ],
   "placementConstraints": [],
