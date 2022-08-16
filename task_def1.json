@@ -23,6 +23,16 @@
       "dnsServers": null,
       "mountPoints": [],
       "workingDirectory": null,
+      "secrets": [
+        {
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:224270744698:secret:APP_PORT-s6jXX8",
+          "name": "APP_PORT"
+        },
+        {
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:224270744698:secret:API_KEY-o206H6",
+          "name": "API_KEY"
+        }
+      ],
       "secrets": null,
       "dockerSecurityOptions": null,
       "memory": 512,
