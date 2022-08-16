@@ -33,7 +33,6 @@
           "name": "API_KEY"
         }
       ],
-      "secrets": null,
       "dockerSecurityOptions": null,
       "memory": 512,
       "memoryReservation": null,
